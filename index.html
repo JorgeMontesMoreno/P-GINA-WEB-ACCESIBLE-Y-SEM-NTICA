@@ -10,6 +10,19 @@
                 width: 100%;
                 height: auto;
             }
+
+            table, th, td {
+                width: 100%;
+                table-layout: fixed;
+                border-collapse: collapse;
+                border: 1px solid #000;
+                text-align: center;
+            }
+            caption {
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: 10px;
+            }
         </style>
     </head>
     <body>
@@ -72,37 +85,137 @@
             <article id="programa">
                 <h2 style="text-align: center;">Programa del Festival</h2>
                 <p style="text-align: center;">El festival tendrá una duración de tres días, con actividades para todas las edades. Durante estas jornadas, los asistentes podrán disfrutar de conciertos, talleres, espectáculos, gastronomía y actividades culturales que celebran la identidad canaria.</p>
-                <h4>Viernes – Inauguración del festival</h4>
-                <img src="https://images.openai.com/static-rsc-4/jU5Mal3JSMW3MqBpOhWAnaWEBJid91tyhjLusobN_XKl0Mn9lhiOWgHazaj3HPL7qm4iKpmGH4kQN5md5Aw-1Y7cGobSjrf0dnR9Q7NqJoh9fCY_cetZZgwoAMtgUurubMsXH0SWU3gvKpaWlt9CAfpRk1OigV9eCmVizMXaZtP2pJkuBN3-5NqEM1ScD826?purpose=fullsize" alt="Imagen del festival" class="imagen">
-                <ul>
-                    <li>17:00 h – Apertura del recinto y bienvenida a los visitantes.</li>
-                    <li>17:30 h – Exhibición de bailes tradicionales canarios.</li>
-                    <li>18:30 h – Taller de artesanía y cultura canaria.</li>
-                    <li>20:00 h – Actuación de artistas locales.</li>
-                    <li>21:30 h – Concierto de Ptazeta.</li>
-                    <li>23:00 h – Concierto de Quevedo.</li>
-                    <li>00:30 h – Música con DJ y zona de ocio.</li>
-                </ul>
+                <table>
+                    <caption>Viernes – Inauguración del festival</caption>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Actividad</th>
+                        <th>Zona</th>
+                        <th>Duracion</th>
+                    </tr>
+                    <tr>
+                        <td>17:00 h</td>
+                        <td>Apertura del recinto y bienvenida a los visitantes.</td>
+                        <td>Entrada principal</td>
+                        <td>30 min</td>
+                    </tr>
+                    <tr>
+                        <td>17:30 h</td>
+                        <td>Exhibición de bailes tradicionales canarios.</td>
+                        <td>Escenario principal</td>
+                        <td>1 h</td>
+                    </tr>
+                    <tr>
+                        <td>18:30 h</td>
+                        <td>Taller de artesanía y cultura canaria.</td>
+                        <td>Zona de talleres</td>
+                        <td>1 h</td>
+                    </tr>
+                    <tr>
+                        <td>20:00 h</td>
+                        <td>Actuación de artistas locales.</td>
+                        <td>Escenario principal</td>
+                        <td>1 h 30 min</td>
+                    </tr>
+                    <tr>
+                        <td>21:30 h</td>
+                        <td>Concierto de Ptazeta.</td>
+                        <td>Escenario principal</td>
+                        <td>1 h 30 min</td>
+                    </tr>
+                    <tr>
+                        <td>23:00 h</td>
+                        <td>Concierto de Quevedo.</td>
+                        <td>Escenario principal</td>
+                        <td>1 h 30 min</td>
+                    </tr>
+                    <tr>
+                        <td>00:30 h</td>
+                        <td>Música con DJ y zona de ocio.</td>
+                        <td>Zona de ocio</td>
+                        <td>Hasta cierre</td>
+                    </tr>
+                </table>
                 <br>
-                <h4>Sábado – Jornada Grande de Grandes Éxitos</h4>
-                <img src="https://images.openai.com/static-rsc-4/r83C53mL-ynyCw7nGpOgMVHxG-36Ukz8cjYB4S5o1GeGej5S_OTAon8lK1cNTJjwOudpkzdKWn6IBubzmPzyKSOp0s2fBPe1pRbHeB1a1E1AhA-44L_INeHD6xNIfLGNqcSLRNxjtFDgnbo42EoJcIW3_E60xasFujiQO_rAE0ul_N8yjBdxuIOGZwuZCAA6?purpose=fullsize" class="imagen">
-                <ul>
-                    <li>17:00 h – Apertura de puertas y ambientación musical en el recinto.</li>
-                    <li>18:00 h – Concierto de Manny Manuel.</li>
-                    <li>20:00 h – Concierto de Carlos Vives.</li>
-                    <li>22:00 h – Concierto estelar de Rels B.</li>
-                    <li>00:00 h – Gran cierre nocturno con sesión de DJ y fiesta temática.</li>
-                </ul>
+                <table>
+                    <caption>Sábado – Jornada Grande de Grandes Éxitos</caption>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Actividad</th>
+                        <th>Zona</th>
+                        <th>Duracion</th>
+                    </tr>
+                    <tr>
+                        <td>17:00 h</td>
+                        <td>Apertura de puertas y ambientación musical en el recinto.</td>
+                        <td>Entrada principal</td>
+                        <td>1 h</td>
+                    </tr>
+                    <tr>
+                        <td>18:00 h</td>
+                        <td>Concierto de Manny Manuel.</td>
+                        <td>Escenario principal</td>
+                        <td>2 h</td>
+                    </tr>
+                    <tr>
+                        <td>20:00 h</td>
+                        <td>Concierto de Carlos Vives.</td>
+                        <td>Escenario principal</td>
+                        <td>2 h</td>
+                    </tr>
+                    <tr>
+                        <td>22:00 h</td>
+                        <td>Concierto estelar de Rels B.</td>
+                        <td>Escenario principal</td>
+                        <td>2 h</td>
+                    </tr>
+                    <tr>
+                        <td>00:00 h</td>
+                        <td>Gran cierre nocturno con sesión de DJ y fiesta temática.</td>
+                        <td>Zona de ocio</td>
+                        <td>Hasta cierre</td>
+                    </tr>
+                </table>
                 <br>
-                <h4>Domingo – Clausura y despedida</h4>
-                <img src="https://images.openai.com/static-rsc-4/YARybD2M8YtOOgrlCzsZ0RZRIJr7hkWlLw0ZZp6YVLI_GustwrT3P0HQ1mogbO4wQMvQrSB5KyitFW_lY9LYhuuRSjDgLie_m4S_-30DTH9S5-uhhXaNQa5VlRwDK5vM7aLD_GZmHpaA62dvyGbHcWH92ocASOaRO9h3scA9A7VzQ3AYHdagzLrn_kctWmSY?purpose=fullsize" alt="Imagen del festival" class="imagen">
-                <ul>
-                    <li>17:00 h – Apertura del recinto y actividades para familias.</li>
-                    <li>18:00 h – Taller de cocina canaria y degustación de productos locales.</li>
-                    <li>19:30 h – Concierto de Estopa.</li>
-                    <li>21:00 h – Concierto de Aitana.</li>
-                    <li>22:30 h – Actuación final y cierre del festival con fuegos artificiales.</li>
-                </ul>
+                <table>
+                    <caption>Domingo – Clausura y despedida</caption>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Actividad</th>
+                        <th>Zona</th>
+                        <th>Duracion</th>
+                    </tr>
+                    <tr>
+                        <td>17:00 h</td>
+                        <td>Apertura del recinto y actividades para familias.</td>
+                        <td>Entrada principal</td>
+                        <td>1 h</td>
+                    </tr>
+                    <tr>
+                        <td>18:00 h</td>
+                        <td>Taller de cocina canaria y degustación de productos locales.</td>
+                        <td>Zona de talleres</td>
+                        <td>1 h 30 min</td>
+                    </tr>
+                    <tr>
+                        <td>19:30 h</td>
+                        <td>Concierto de Estopa.</td>
+                        <td>Escenario principal</td>
+                        <td>1 h 30 min</td>
+                    </tr>
+                    <tr>
+                        <td>21:00 h</td>
+                        <td>Concierto de Aitana.</td>
+                        <td>Escenario principal</td>
+                        <td>1 h 30 min</td>
+                    </tr>
+                    <tr>
+                        <td>22:30 h</td>
+                        <td>Actuación final y cierre del festival con fuegos artificiales.</td>
+                        <td>Escenario principal</td>
+                        <td>30 min</td>
+                    </tr>
+                </table>
                 <br>
             </article>
             <section id="recomendaciones">
