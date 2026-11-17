@@ -275,6 +275,49 @@
                 <li style="text-align: center;"><a href="#inicio">Volver a Inicio</a></li>
                 <br>
             </section>
+            <section id="formulario">
+                <h2 style="text-align: center;">Formulario de Inscripción</h2>
+                <form action="">
+                    <fieldset>
+                        <legend>Formulario de inscripción al CanaryLand Festival</legend>
+                        <label for="nombre_apellidos">Nombre y apellidos:</label><br>
+                        <input type="text" id="nombre_apellidos" name="nombre_apellidos" required>
+                        <br><br>
+                        <label for="correo">Correo electrónico:</label><br>
+                        <input type="email" id="correo" name="correo" required>
+                        <br><br>
+                        <label for="telefono">Número de teléfono:</label><br>
+                        <input type="tel" id="telefono" name="telefono">
+                        <br><br>
+                        <label for="actividad_preferida">Actividad preferida:</label><br>
+                        <select id="actividad_preferida" name="actividad_preferida">
+                            <option value="">Selecciona una actividad</option>
+                            <option value="concierto_ptazeta">Concierto de Ptazeta</option>
+                            <option value="concierto_quevedo">Concierto de Quevedo</option>
+                            <option value="concierto_manny_manuel">Concierto de Manny Manuel</option>
+                            <option value="concierto_carlos_vives">Concierto de Carlos Vives</option>
+                            <option value="concierto_relsb">Concierto de Relsb</option>
+                            <option value="concierto_estopa">Concierto de Estopa</option>
+                            <option value="concierto_aitana">Concierto de Aitana</option>
+                            <option value="exhibicion_bailes">Exhibición de bailes tradicionales canarios</option>
+                            <option value="taller_artesania">Taller de artesanía y cultura canaria</option>
+                            <option value="artisas_locales">Actuación de artistas locales</option>
+                            <option value="taller_cocina">Taller de cocina canaria y degustación de productos locales</option>
+                            <option value="actividades_familiares">Actividades familiares</option>
+                        </select>
+                        <br><br>
+                        <label for="horario_preferido">Horario preferido:</label><br>
+                        <div>
+                            <input type="radio" id="horario_mañana" name="horario_preferido" value="mañana">
+                            <label for="horario_mañana">Mañana</label><br>
+                            <input type="radio" id="horario_tarde" name="horario_preferido" value="tarde">
+                            <label for="horario_tarde">Tarde</label><br>
+                            <input type="radio" id="horario_noche" name="horario_preferido" value="noche">
+                            <label for="horario_noche">Noche</label>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
         </main>
         <footer>
             <nav id="Redes sociales" style="text-align: center;">
