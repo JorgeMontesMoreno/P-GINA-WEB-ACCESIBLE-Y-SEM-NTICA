@@ -277,7 +277,7 @@
             </section>
             <section id="formulario">
                 <h2 style="text-align: center;">Formulario de Inscripción</h2>
-                <form action="">
+                <form action="https://webhook.site/6d2b6bb4-54f8-4004-8e0a-828484f89f33" method="post" enctype="multipart/form-data">
                     <fieldset>
                         <legend>Formulario de inscripción al CanaryLand Festival</legend>
                         <label for="nombre_apellidos">Nombre y apellidos:</label><br>
@@ -331,7 +331,8 @@
                         <label for="comentarios">Comentarios adicionales:</label><br>
                         <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
                         <br><br>
-                        <input type="submit" value="Enviar">
+                        <button type="submit" id="btn-enviar" name="accion" value="enviar" title="Enviar el formulario">Enviar datos</button>
+                        <button type="reset" id="btn-limpiar" name="accion" value="limpiar" title="Limpiar todos los campos">Limpiar datos</button>
                     </fieldset>
                 </form>
             </section>
